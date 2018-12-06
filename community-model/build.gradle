@@ -1,0 +1,12 @@
+description = """Community model definition"""
+
+dependencies {
+
+    compile "org.apache.commons:commons-collections4:4.0"
+    compile "org.apache.commons:commons-lang3:3.0"
+
+    compile 'org.mindrot:jbcrypt:0.3m'
+
+    compile 'org.passay:passay:1.1.0'
+
+}

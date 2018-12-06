@@ -1,0 +1,54 @@
+# /
+/.gradle
+/.metadata
+/.recommenders
+/log4j-xinclude-loggers.xml
+/output
+/.recommenders
+*gradletasknamecache
+
+# Exclusions that apply to all projects
+*~
+*/bin
+*/build
+*/classes
+*/target
+*/.classpath
+*/context/WEB-INF/classes
+*/context/WEB-INF/lib
+*/work
+.settings
+
+# Exclusions based on file names
+.DS_Store
+.tomcatplugin
+.#webclasspath
+*.iml
+*.rb
+*.pyc
+*.settings
+*.gradletasknamecache
+
+# Directory created by IVY when resolving dependencies in Eclipse
+/lib/ivy
+/lib
+
+# Directory created by Gradle when resolving dependencies
+/lib/gradle
+
+# Directory created by ant when doing a production build
+/build
+
+# Directory created by local gradle builds
+/output
+
+# Other exclusions
+/.idea/
+*/out/
+RemoteSystemsTempFiles/
+/util/json-classes
+.plugins/
+
+# Solr specific exclusions
+solr.xml
+core.properties
