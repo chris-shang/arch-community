@@ -1,0 +1,5 @@
+rootProject.name = 'arch-community'
+include 'community-model'
+include 'community-client'
+include 'community-service'
+

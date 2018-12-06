@@ -1,0 +1,10 @@
+description = """Community client definition"""
+
+dependencies {
+    compile project(':community-service')
+    compile project(':community-model')
+
+    compile 'org.springframework.cloud:spring-cloud-starter-feign:1.0.0.RELEASE'
+
+    compile "org.springframework:spring-web:4.3.17.RELEASE"
+}
